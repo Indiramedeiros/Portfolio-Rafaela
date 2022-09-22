@@ -4,7 +4,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
-  margin: 50px;
+  margin: 20px;
 }
 
 h1 {
@@ -81,4 +81,25 @@ p {
   padding: 15px 10px;
   text-decoration: none;
   text-transform: capitalize;
+}
+@media (max-width: 576px) {
+  h1,
+  h2,
+  p {
+    text-align: center;
+  }
+  h1 {
+    font-size: 80px;
+  }
+  #contact-heading {
+    font-size: 15px;
+  }
+  .email-link {
+    font-size: 25px;
+  }
+  .primary-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
